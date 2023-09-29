@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffbe5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-image: url(./img/wallpaper.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 1750px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo_img {
+    width: 600px;
+}
+
+.values {
+    width: 100px;
+}
+
+ul {
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    background-color: #1c3b8f;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+ul li {
+    display: flex;
+    background-color: #608bff;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 7px;
+    cursor: pointer;
+    font-size: 25px;
+    border-left: 7px solid white;
+}
+
+ul li:hover {
+    background-color: #1c3b8f;
+}
+
+.main_p {
+    color: white;
+    background-color: #1c3b8f;
+    font-size: larger;
+    padding: 0 20px 20px 20px;
+}
+
+.main_p h3 {
+    justify-content: center;
+}
+
+.filter {
+    background-color: #1c3b8f;
+    color: white;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-men {
+    color: white;
+    background-color: #dc9925;
+    border-radius: 5px;
+}
+
+.btn-women {
+    color: white;
+    background-color: #cf41b0;
+    border-radius: 5px;
+}
+
+.btn-both {
+    color: white;
+    background-color: #5675ff;
+    border-radius: 5px;
+}
+
+.fra_offer {
+    background-color: #ffffff9c;
+}
+
+.fra_price {
+    z-index: 1;
+    rotate: -45deg;
+    color: white;
+    position: absolute;
+    top: 30px;
+}
+
+.fra_label {
+    margin-left: 10px;
+}
+
+.fra_img {
+    width: 290px;
+    height: 290px;
+}
+
+.fra_img_offer {
+    top: -25px;
+    left: -25px;
+    width: 200px;
+    position: absolute;
+}
+
+.fra_item {
+    position: relative;
+    background-color: #c5caff29;
+    border-radius: 10px;
+    border: 3px solid #1c3b8f;
+    display: inline-block;
+    margin: 20px;
+    color: #1c3b8f;
+    cursor: pointer;
+}
+
+.fra_item:hover {
+    border: solid 3px #a86b00;
+    box-shadow: 5px 5px 50px #00000021;
+    color: #a86b00;
+}
+
+.membership-back {
+    background-color: #ffffff9c;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.membership h3 {
+    color: #1c3b8f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.left-form input, .right-form input {
+    width: 500px;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bronze-s {
+    color: #933d00;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.silver-s {
+    color: #777777;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.gold-s {
+    color: #c09300;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.contact-img {
+    width: 50px;
+}
+
+.contacts {
+    margin-top: 50px;
+    color: #1c3b8f;
+    margin-bottom: 0;
+}
+
+.contact-us {
+    justify-content: center;
+    display: flex;
+    background-color: #ffffff9c;
+}
+
+.icons {
+    margin: 10px;
+}
+
+.icons h5 {
+    margin-bottom: 50px;
+}
+
+.message-box button {
+    width: 390px;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    background-color: #1c3b8f;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    justify-content: center;
+}

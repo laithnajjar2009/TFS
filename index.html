@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"The Fragrance Shop"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script defer src="./app.js"></script>
+    <div class="container">
+    <header>
+          <div id="home" class="logo">
+            <img class="logo_img" src="./img/logo.svg" alt="">
+        </div>
+        <ul>
+            <li onclick="homeScroll()">HOME</li>
+            <li onclick="offerScroll()">OFFERS</li>
+            <li onclick="memberScroll()">MEMBERSHIP</li>
+            <li onclick="contactScroll()">CONTACT US</li>
+        </ul> 
+        <div class="main_p">
+           <center>
+            <img class="values" src="./img/vlaue.svg" alt="">
+            <h3>Our Purpose & Pledge</h3>
+           <p>At The Fragrance Shop, we are working hard behind the scenes so you can have confidence and trust in your perfume choices. We are an inclusive company that cares about our communities, people and planet as much as perfume. Join us on our conscious journey so you can #FeelGoodWhenYouSmellGood.</p>
+        </center>
+        </div>
+        <div class="filter">
+            <h3>Perfume Filter ||</h3>
+            <button onclick="menFun()" class="btn-men">MEN</button>
+            <button onclick="womenFun()" class="btn-women">WOMEN</button>
+            <button onclick="bothFun()" class="btn-both">BOTH</button>
+        </div>
+    </header>
+    <main>
+        <div id="fra_offer" class="fra_offer">
+            <div class="fra_item men">
+                <h3  class="fra_price">75.46 JD</h3>
+                <img class="fra_img_offer" src="./img/offer.svg" alt="">
+                <img class="fra_img" src="./img/MEN/Sauvage 1.png" alt="">
+                <h4 class="fra_label">Sauvage Eau De</h4>
+            </div>
+            <div class="fra_item men">
+                <h3 class="fra_price">49.85 JD</h3>
+                <img class="fra_img_offer" src="./img/offer.svg" alt="">
+                <img class="fra_img" src="./img/MEN/Paco.png" alt="">
+                <h4 class="fra_label">Paco Rabanne</h4>
+            </div>
+            <div class="fra_item men">
+                <h3 class="fra_price">39.81 JD</h3>
+                <img class="fra_img_offer" src="./img/offer.svg" alt="">
+                <img class="fra_img" src="./img/MEN/Yves.png" alt="">
+                <h4 class="fra_label">Yves Saint Laurent</h4>
+            </div>
+            <div class="fra_item men">
+                <h3 class="fra_price">67.15 JD</h3>
+                <img class="fra_img_offer" src="./img/offer.svg" alt="">
+                <img class="fra_img" src="./img/MEN/Fahrenheit.png" alt="">
+                <h4 class="fra_label">Fahrenheit Eau De</h4>
+            </div>
+            <div class="fra_item men">
+                <h3 class="fra_price">56.80 JD</h3>
+                <img class="fra_img_offer" src="./img/offer.svg" alt="">
+                <img class="fra_img" src="./img/MEN/bleu.png" alt="">
+                <h4 class="fra_label">BLEU DE CHANEL</h4>
+            </div>
+            <div class="fra_item men">
+                <h3 class="fra_price">20.42 JD</h3>
+                <img class="fra_img_offer" src="./img/offer.svg" alt="">
+                <img class="fra_img" src="./img/MEN/Davidoff.png" alt="">
+                <h4 class="fra_label">Davidoff Cool Water</h4>
+            </div>
+            <div class="fra_item women">
+                <h3 class="fra_price">24.23 JD</h3>
+                <img class="fra_img_offer" src="./img/offer_pink.svg" alt="">
+                <img class="fra_img" src="./img/WOMEN/Jimmy.png" alt="">
+                <h4 class="fra_label">Jimmy Choo</h4>
+            </div>
+            <div class="fra_item women">
+                <h3 class="fra_price">65.77 JD</h3>
+                <img class="fra_img_offer" src="./img/offer_pink.svg" alt="">
+                <img class="fra_img" src="./img/WOMEN/Miss Dior.png" alt="">
+                <h4 class="fra_label">Miss Dior Eau De</h4>
+            </div>
+            <div class="fra_item women">
+                <h3 class="fra_price">68.54 JD</h3>
+                <img class="fra_img_offer" src="./img/offer_pink.svg" alt="">
+                <img class="fra_img" src="./img/WOMEN/COCO Eau De.png" alt="">
+                <h4 class="fra_label">COCO Eau De</h4>
+            </div>
+            <div class="fra_item women">
+                <h3 class="fra_price">56.10 JD</h3>
+                <img class="fra_img_offer" src="./img/offer_pink.svg" alt="">
+                <img class="fra_img" src="./img/WOMEN/Flora Gorgeous.png" alt="">
+                <h4 class="fra_label">Flora Gorgeous Gardenia</h4>
+            </div>
+            <div class="fra_item women">
+                <h3 class="fra_price">59.54 JD</h3>
+                <img class="fra_img_offer" src="./img/offer_pink.svg" alt="">
+                <img class="fra_img" src="./img/WOMEN/Good Girl.png" alt="">
+                <h4 class="fra_label">Good Girl Eau De</h4>
+            </div>
+            <div class="fra_item women">
+                <h3 class="fra_price">58.15 JD</h3>
+                <img class="fra_img_offer" src="./img/offer_pink.svg" alt="">
+                <img class="fra_img" src="./img/WOMEN/FAME.png" alt="">
+                <h4 class="fra_label">FAME Eau De</h4>
+            </div>
+        </div>
+        <center class="membership-back">
+        <div id="member" class="membership">
+            <h3>Join Our Membership</h3>
+            <form action="">
+                <div class="left-form">
+                <label for="fName">First Name:</label>
+                <input class="form-control" name="fName" type="text" placeholder="Your First Name">
+                <label for="lName">Last Name:</label>
+                <input class="form-control" name="lName" type="text" placeholder="Your Last Name">
+                </div>
+                <div class="right-form">
+                <label for="address">Address:</label>
+                <input class="form-control" name="address" type="text" placeholder="Your Current Address">
+                <label for="phoneNum">Phone Number:</label>
+                <input class="form-control" name="phoneNum" type="text" placeholder="Your Moblie Number">
+                </div>
+                <div class="check-box">
+                    <label for="bronze"><span class="bronze-s">Bronze</span> Membership: -></label>
+                    <input id="bronze" name="bronze" class="form-check-input" type="checkbox">
+                    <label for="silver"><span class="silver-s">Silver</span> Membership: -></label>
+                    <input id="silver" name="silver" class="form-check-input" type="checkbox">
+                    <label for="gold"><span class="gold-s">Gold</span> Membership: -></label>
+                    <input id="gold" name="gold" class="form-check-input" type="checkbox">
+                </div>
+            </form>
+                <button class="btn btn-primary">Submit</button>
+        </div>
+        <h3 class="contacts">Contact Us</h3>
+    </center>
+
+    <div id="contact" class="contact-us">
+        <div class="icons">
+            <img class="contact-img" src="./img/facebook.png" alt="">
+            <h5>The Fragrance Shop</h5>
+            <img class="contact-img" src="./img/whatsapp.png" alt="">
+            <h5>0794959558</h5>
+            <img class="contact-img" src="./img/twitter.png" alt="">
+            <h5>The Fragrance Shop</h5>
+        </div>
+        <div class="message-box">
+            <label for="email">Email</label>
+            <input class="form-control" name="email" type="text" placeholder="Your email here">
+            <label for="subjects">Subject</label>
+            <input class="form-control" name="subjects" type="text" placeholder="Input your subject">
+            <label for="msg">Message</label>
+            <textarea class="form-control" name="msg" id="" cols="30" rows="10"></textarea>
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+    </main>
+    <footer><h4>All rights reserved © 2024 : Laith Al-Najjar</h4></footer>
+    </div>
+</body>
+</html>
